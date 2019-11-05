@@ -46,7 +46,37 @@ const reverseString = (string) => {
   return newString.join('');
 };
 
-console.log(reverseString('elephant'));
+// console.log(reverseString('elephant'));
 
 // 4.
 
+const triangleNum = (n) => {
+  return (n * (n + 1)) /2;
+};
+
+/* console.log(triangleNum(1));
+console.log(triangleNum(2));
+console.log(triangleNum(3));
+console.log(triangleNum(4));
+console.log(triangleNum(5));
+console.log(triangleNum(6));
+console.log(triangleNum(7)); */
+
+
+// 5.
+const strSplitter = () => {
+
+};
+
+// 6.
+
+const fib = (n) => {
+  let arr = [0, 1];
+
+  for (let i = 2; i < n + 1; i++)
+    arr.push(arr[i-2] + arr[i - 1]);
+
+  return arr;
+};
+
+console.log(fib(7));
