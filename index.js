@@ -64,9 +64,25 @@ console.log(triangleNum(7)); */
 
 
 // 5.
-const strSplitter = () => {
+const strSplitter = (string, separator) => {
+  if (string.length === 0)
+    return '';
 
+  let result = [];
+  let index = string.indexOf(separator);
+
+  for (let i = 0; i < string.length; i++) {
+    if (index !== -1) 
+      result.push(string.slice(0, index))
+    else 
+      result.push(string);
+
+    string = string.slice(index + 1);
+  }
+  return result;
 };
+
+console.log(strSplitter('02/20/2020', '/'));
 
 // 6.
 
@@ -79,4 +95,7 @@ const fib = (n) => {
   return arr;
 };
 
-console.log(fib(7));
+// console.log(fib(7));
+
+// 7.
+
