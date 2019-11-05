@@ -107,4 +107,4 @@ const factorial = (n) => {
   return factorialSum;
 }
 
-console.log(factorial(100));
+// console.log(factorial(100));
