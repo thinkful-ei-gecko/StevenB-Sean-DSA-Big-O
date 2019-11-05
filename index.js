@@ -73,7 +73,7 @@ const strSplitter = (string, separator) => {
 
   for (let i = 0; i < string.length; i++) {
     if (index !== -1) 
-      result.push(string.slice(0, index))
+      result.push(string.slice(0, index));
     else 
       result.push(string);
 
@@ -82,7 +82,7 @@ const strSplitter = (string, separator) => {
   return result;
 };
 
-console.log(strSplitter('02/20/2020', '/'));
+// console.log(strSplitter('02/20/2020', '/'));
 
 // 6.
 
@@ -99,3 +99,12 @@ const fib = (n) => {
 
 // 7.
 
+const factorial = (n) => {
+  let factorialSum = 1;
+
+  for (let i = n; i >= 1; i--)
+    factorialSum = factorialSum * i;
+  return factorialSum;
+}
+
+console.log(factorial(100));
