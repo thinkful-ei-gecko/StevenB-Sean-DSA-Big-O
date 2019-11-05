@@ -30,8 +30,8 @@ DSA Big 0
 11) O(n) - This algorithm takes a number, and finds out if its a prime number. The for-loop which runs from 2, until the number selected      dominates the complexity here
 
 12) 	After 7 Moves:
-	    |	  |	  |   	3 Disks: 2^3 - 1     	O(2^n)
+	    |	  |	  |   	    3 Disks: 2^3 - 1     	O(2^n)
 	    |	  |	  |	    4 Disks: 2^4 - 1
-	    | 	1	  |	    5 Disks: 2^5 - 1
-    	4	  2	  |
+	    | 	  1	  |	    5 Disks: 2^5 - 1
+    	    4	  2	  |
 	    5	  3	  |
