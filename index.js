@@ -13,7 +13,7 @@ const towerOfHanoi = (discs, startPeg, endPeg, middlePeg) => {
 
 // solving recursive problems 1-7 iteratively
 
-// 1.
+// 1. O(n)
 
 const sheepCounter = (numOfSheep) => {
   for(let i = numOfSheep; i >= 1; i--) 
@@ -24,7 +24,7 @@ const sheepCounter = (numOfSheep) => {
 
 //sheepCounter(3);
 
-// 2.
+// 2. O(1)
 
 const powerCalculator = (base, exponent) => {
   if (exponent < 0)
@@ -36,7 +36,7 @@ const powerCalculator = (base, exponent) => {
 //console.log(powerCalculator(10,-2));
 
 
-// 3.
+// 3. O(n)
 
 const reverseString = (string) => {
   const newString = [];
@@ -48,7 +48,7 @@ const reverseString = (string) => {
 
 // console.log(reverseString('elephant'));
 
-// 4.
+// 4. O(1)
 
 const triangleNum = (n) => {
   return (n * (n + 1)) /2;
@@ -63,7 +63,8 @@ console.log(triangleNum(6));
 console.log(triangleNum(7)); */
 
 
-// 5.
+// 5. O(n)
+
 const strSplitter = (string, separator) => {
   if (string.length === 0)
     return '';
@@ -84,7 +85,7 @@ const strSplitter = (string, separator) => {
 
 // console.log(strSplitter('02/20/2020', '/'));
 
-// 6.
+// 6. O(n)
 
 const fib = (n) => {
   let arr = [0, 1];
@@ -97,7 +98,7 @@ const fib = (n) => {
 
 // console.log(fib(7));
 
-// 7.
+// 7. O(n)
 
 const factorial = (n) => {
   let factorialSum = 1;
