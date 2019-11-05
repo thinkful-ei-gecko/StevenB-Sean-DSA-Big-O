@@ -40,13 +40,13 @@ DSA Big 0
 
 Recursive Big O time complexities 
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. O(n)
+2. O(n)
+3. O(n)
+4. O(n)
+5. O(n)
+6. O(n)
+7. O(n^2)
 8.
 9.
 10.
