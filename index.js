@@ -24,6 +24,8 @@ const sheepCounter = (numOfSheep) => {
 
 //sheepCounter(3);
 
+// 2.
+
 const powerCalculator = (base, exponent) => {
   if (exponent < 0)
     return 'exponent should be >= 0';
@@ -32,3 +34,19 @@ const powerCalculator = (base, exponent) => {
 
 //console.log(powerCalculator(10,2));
 //console.log(powerCalculator(10,-2));
+
+
+// 3.
+
+const reverseString = (string) => {
+  const newString = [];
+  for (let i = string.length - 1; i >= 0; i--) {
+    newString.push(string[i]);
+  }
+  return newString.join('');
+};
+
+console.log(reverseString('elephant'));
+
+// 4.
+
